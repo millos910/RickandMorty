@@ -8,6 +8,5 @@ const useFetch = url => {
         .catch(err =>console.log(err))
     }
     return [resp,getApi]
-    
     }
 export default useFetch
