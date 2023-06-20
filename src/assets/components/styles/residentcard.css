@@ -1,0 +1,60 @@
+.resident{
+    width: 100%;
+    max-width: 350px;
+    background-color: #062226;
+    color: white;
+    border-radius: 0.8em;
+    overflow: hidden;
+}
+.resident-header{
+    position: relative;
+}
+.resident-status{
+    position: absolute;
+    top: 15%;
+    width: 30%;
+    min-width:100px ;
+    background-color: #062226;
+    padding: 0.3 em 0.5em;
+    border-radius: 0 0.65em 0.65em 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.resident-circle{
+    display: block;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #cccc;
+}
+.Alive{
+    background-color: green;
+}
+.Dead{
+    background-color: red;
+}
+.resident-body{
+    padding: 1em;
+    background-color: #062226;
+}
+.resident-name{
+    text-align: center;
+}
+.resident-hr{
+    border-width: 1px;
+}
+.resident-list{
+    padding: 1em 0.5em 0.3em 1.5em;
+}
+.resident-item{
+    padding: 0.8em;
+}
+.resident-label{
+    padding: 0.6em;
+    color: grey;
+}
+.resident-value{
+    padding: 0.2em;
+}

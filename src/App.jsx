@@ -19,10 +19,9 @@ function App() {
   if (!location) {
     return <p>Loading location...</p>;
   }
-
   return (
       <div className='app'>
-        <h1>Entregable Rick and Morty</h1>
+        <div className='img-header'><img className='img-present' src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/08/Ya-comenzo-la-produccion-de-la-temporada-8-de-Rick-and-Morty.jpg" alt="header" /></div>
         <InputSerch setIdlocation={setIdlocation}/>
         {
           haserror 

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #12353b;
+}
+header{
+    padding: 0.8rem;
+}
+.residents-container{
+        min-width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;     
+        justify-content: center;
+        align-items: center;
+}
+.img-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+}
+.img-present{
+    position: relative;
+    width: 200vh;
+    height: 160px;
+    min-width: 180vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+   
+}
+
