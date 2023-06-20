@@ -1,4 +1,5 @@
 import { useRef, useState } from "react"
+import './styles/inputbox.css'
 const InputSerch = ({setIdlocation}) => {
     const idlocatioValue=useRef()
     const [inputIsEmpty,setInputIsEmpty]=useState(true)
@@ -16,8 +17,8 @@ const InputSerch = ({setIdlocation}) => {
         }
     }
   return (
-    <>
-      <form onSubmit={handleSUbmit}>
+    <div className="input-general">
+      <form className="form" onSubmit={handleSUbmit}>
           <input placeholder="Enter Id location" type="text" ref={idlocatioValue}/>
           
           <button>Serch</button>
@@ -25,7 +26,7 @@ const InputSerch = ({setIdlocation}) => {
       {
         inputIsEmpty && <h3>this field is obligatory...</h3>
       }
-    </>
+    </div>
   )
   
 }

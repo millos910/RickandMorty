@@ -5,13 +5,25 @@
 .locatio-name{
     color: greenyellow;
 }
-.card-location{
-    
+.container-location{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 2rem;
+}
+.card-location{
+    background-color: #0d3c3d;
+    border-radius: 0.8em;
+    display: flex;
+    padding: 2rem 1rem 1rem 0;
+    width: 500px;
+    box-shadow: inset;
     justify-content: center;
     align-items: center;
     color: white;
     flex-direction: column;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .location-list{
     display: flex;

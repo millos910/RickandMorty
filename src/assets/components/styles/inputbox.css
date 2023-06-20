@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo+2:ital,wght@1,200&family=IBM+Plex+Sans:wght@300&family=Pangolin&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Pangolin', cursive;
+}
+.input-general{
+    padding: 2rem 1rem 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+button{
+    background-color: greenyellow;
+    border-radius: 0.5em;
+    font-family: 'Pangolin', cursive;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: inherit;
+}
+.form{
+    display: block;
+    padding-bottom: 1rem;
+    margin: 0;
+}

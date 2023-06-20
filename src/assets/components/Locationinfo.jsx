@@ -6,6 +6,7 @@ const Locationinfo = ({ location }) => {
     }
     console.log(location);
 return (
+    <div className='container-location'>
     <article className='card-location'>
     <h2 className='locatio-name'>{location.name}</h2>
     <ul className='location-list'>
@@ -23,6 +24,7 @@ return (
         </li>
     </ul>
     </article>
+    </div>
 );
 };
 
