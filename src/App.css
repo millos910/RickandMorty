@@ -33,6 +33,11 @@ header{
     display: flex;
     justify-content: center;  
     align-items: center;
-   
+}
+.text-error{
+    color: white;
+    text-align: center;
+    align-items: center;
+
 }
 

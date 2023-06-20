@@ -25,7 +25,7 @@ function App() {
         <InputSerch setIdlocation={setIdlocation}/>
         {
           haserror 
-          ? <h2>Hey you must provide an id from 1 to 126 😱</h2>
+          ? <h2 className='text-error'>❌Hey you must provide an id from 1 to 126 🚨</h2>
           : (<>
             <Locationinfo location={location} />
             <div className='residents-container'>
